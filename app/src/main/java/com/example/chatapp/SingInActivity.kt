@@ -44,7 +44,7 @@ class SingInActivity : AppCompatActivity() {
         googleSingin=GoogleSignIn.getClient(this,gso)
 
 
-        // by clicking on SignIn with google option creting account on firebase .
+        // by clicking on SignIn with google option creating account on firebase .
         binding.btnGoogle.setOnClickListener(){
             singInGoogle()
         }
