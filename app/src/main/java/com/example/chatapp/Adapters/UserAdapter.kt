@@ -38,9 +38,12 @@ class UserAdapter(private val list:ArrayList<userg>):RecyclerView.Adapter<UserAd
        val  user :userg=list.get(position)
         val userId=list[position].UserId.toString()
         holder.Lastmessage.text=list[position].LastMessage
+
+        // adding clickListener on every user so that on click it directed to chat activity
         holder.itemView.setOnClickListener(){
             Toast.makeText(it.context, "$userId", Toast.LENGTH_SHORT).show()
             val intent=Intent(it.context,ChatDetailActivity::class.java).also {
+                // passing data;
                 it.putExtra("userId",userId)
                 it.putExtra("ProfilePic",user.getProfilePic().toString())
                 it.putExtra("UserName",user.getUserName().toString())
