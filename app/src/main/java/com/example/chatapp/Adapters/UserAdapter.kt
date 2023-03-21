@@ -33,11 +33,11 @@ class UserAdapter(private val list:ArrayList<userg>):RecyclerView.Adapter<UserAd
 
     override fun onBindViewHolder(holder: Viewholder, position: Int) {
 ////        holder.pic.setImageResource(list[position].ProfilePic)
-//        Picasso.get().load(list[position].ProfilePic).placeholder(R.drawable.avatar3)
-//        holder.name.text=list[position].UserName
-//       val  user :userg=list.get(position)
-//        val userId=list[position].UserId.toString()
-//        holder.Lastmessage.text=list[position].LastMessage
+        Picasso.get().load(list[position].ProfilePic).placeholder(R.drawable.avatar3)
+        holder.name.text=list[position].UserName
+       val  user :userg=list.get(position)
+        val userId=list[position].UserId.toString()
+        holder.Lastmessage.text=list[position].LastMessage
 //        holder.itemView.setOnClickListener(){
 //            Toast.makeText(it.context, "$userId", Toast.LENGTH_SHORT).show()
 //            val intent=Intent(it.context,ChatDetailActivity::class.java).also {
