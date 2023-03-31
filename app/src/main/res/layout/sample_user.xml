@@ -14,7 +14,9 @@
         app:civ_border_color="#616565"
         app:civ_border_width="3dp"
         />
-        <LinearLayout
+    <!-- it contains Name and Last Message -->
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -33,13 +35,13 @@
 
                 android:layout_margin="2dp"
                 />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lastMessage_list"
                 android:text="Last_Message"
                 android:gravity="center_vertical"
-                android:textStyle="bold"
                 android:textColor="#070707"
                 android:layout_margin="2dp"
                 android:textSize="18sp"
