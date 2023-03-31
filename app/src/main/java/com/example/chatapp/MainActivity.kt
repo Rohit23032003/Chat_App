@@ -1,5 +1,6 @@
 package com.example.chatapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -39,7 +40,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
-            R.id.settings_menu-> Toast.makeText(this, "Setting is clicked", Toast.LENGTH_SHORT).show()
+            R.id.settings_menu-> {
+//                Toast.makeText(this, "Setting is clicked", Toast.LENGTH_SHORT).show()
+
+                val intent= Intent(this,SettingsActivity::class.java)
+                startActivity(intent)
+
+            }
              R.id.Group_chat->Toast.makeText(this, "Group_Chat is clicked", Toast.LENGTH_SHORT).show()
             R.id.log_out-> {
                 SignUpActivity().finish()
