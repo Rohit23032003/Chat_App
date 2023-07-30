@@ -7,7 +7,37 @@ ChatApp is a real-time chat application built in Kotlin that allows multiple use
 <b></b>Chat List: The chat fragment displays a list of other users that the user can chat with.<br></br>
 <b></b>Message Deletion: Users can delete their chat messages as needed.<br></br>
 <h1>Screenshots</h1>
-Insert screenshots of the app here, showcasing its main features.
+<b>SignUp Page</b>
+
+<!-- Register Page -->
+<p align="center"><h1>Register Page Screenshot</h1></p>
+
+![register](https://github.com/Rohit23032003/Chat_App/assets/99860290/2900cdf8-b097-4e1d-b585-7c8b1712b0f2)
+
+
+<!-- Login Page -->
+<p align="center"><h1>Login Page</h1></p>
+
+![login](https://github.com/Rohit23032003/Chat_App/assets/99860290/387d15df-3307-4993-a60f-895b8a65ea6d)
+
+
+<!-- UserList Page -->
+<p align="center"> <h1>User List Page</h1></p>
+
+![userlist](https://github.com/Rohit23032003/Chat_App/assets/99860290/12df1925-2fbb-4c29-bd76-ffb9847dc8e6) 
+
+
+<!-- Settings Drop Menu -->
+<p align="center"><h1>Setting Drop Menue</h1></p>
+
+![settings](https://github.com/Rohit23032003/Chat_App/assets/99860290/204c19ce-0e69-49fb-a6ae-01ef94041cf5)
+
+
+<!-- Chat Page -->
+<p align="center"><h1>Chat Page</h1></p>
+
+![chat](https://github.com/Rohit23032003/Chat_App/assets/99860290/90c3ba48-3bdd-4117-9d8b-41ee9fa69f07)
+
 
 <h1>Getting Started</h1>
 Follow the steps below to set up the project and run the ChatApp on your local machine:
